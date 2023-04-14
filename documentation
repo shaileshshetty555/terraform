@@ -1,0 +1,24 @@
+Terraform AWS:
+
+IAM :
+
+(access for humans)--users and groups
+IAM policy defined in json format.
+User: individual. 
+Groups: Collection of users.
+
+(access for other services)
+resources in aws do not have any permissions to interact with other services like users, they need to grant acccess specifically.
+we cannot attach a iam policy to a service directly., for service interaction we need to create a role.
+IAM ROLE securely,grants access for the service interaction.
+
+to the iam role, we can attach the same iam policy.
+
+//////////////////////////////////////////////////////
+other uses of roles:
+*)providing access to iam user belonging to 
+
+
+
+
+
