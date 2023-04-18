@@ -16,7 +16,12 @@ to the iam role, we can attach the same iam policy.
 
 //////////////////////////////////////////////////////
 other uses of roles:
-*)providing access to iam user belonging to 
+1)providing access to iam user belonging to other AWS ACCOUNT.
+2)providing access to applications to interact with services in AWS.
+3)providing access to user outside aws (active directory)
+
+
+
 
 
 
